@@ -239,5 +239,12 @@ footer p {
 }
 
 @media only screen and (max-width: 500px) {
+    header {
+        flex-direction: column-reverse;
+        align-items: center;
+        height: 100%;
+        padding-left: 20px;
+        width: 100%;
+      }
 }
 /* End Media Query Section */
