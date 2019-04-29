@@ -1,127 +1,133 @@
 /* Introduction Section Styling */
 .introduction-section {
-    /* flex codes */
-    display: flex;
-    flex: 1;
-    justify-content: baseline;
-  
-    border-bottom: 1px solid black;
+  /* flex codes */
+  display: flex;
+  flex: 1;
+  justify-content: baseline;
+
+  border-bottom: 1px solid black;
+}
+
+.introduction-section .caption {
+  /* normal css */
+  font-weight: 400px;
+  padding-top: 50px;
+  text-align: center;
+
+  /* flex codes */
+  flex: 1;
+}
+
+.introduction-section .caption h1 {
+  font-size: 70px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.introduction-section .caption-image {
+  /* normal css */
+  text-align: center;
+  width: 30%;
+  padding-bottom: 40px;
+
+  /* flex codes */
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.introduction-section .caption-image img {
+  padding-top: 30px;
+}
+
+.introduction-section .caption button {
+  border: 1px solid black;
+  width: 30.3%;
+  padding: 10px 30px;
+  background: #fff;
+  margin-bottom: 50px;
+}
+/* End Introduction Section Styling */
+
+/* Top Section Styling */
+.top-section {
+  /* normal css */
+  margin-top: 10px;
+  margin-right: 10%;
+  padding-top: 30px;
+  width: 100%;
+
+  /* flex codes */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.top-section .features-block,
+.about-block {
+  /* normal css */
+  width: 49.5%;
+  padding-bottom: 30px;
+  padding-right: 20px;
+
+  /* flex codes */
+  flex: 1;
+  margin: 0 auto;
+  align-self: flex-end;
+}
+
+/* End Top Section Styling */
+
+/* Image Section Styling */
+.image-section .middle-img {
+  width: 100%;
+}
+/* End image Section Styling */
+
+/* Bottom Section Styling */
+.bottom-section {
+  display: flex;
+  flex-direction: row;
+}
+
+.bottom-section .services-block,
+.product-block,
+.vision-block {
+  flex: 1;
+  width: 33%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 30px;
+}
+/* End Bottom Section Styling */
+
+/* Address Section Styling */
+.address-section {
+  padding-top: 30px;
+  padding-bottom: 50px;
+  border-top: 1px solid black;
+}
+
+.address-section p {
+  padding-top: 10px;
+}
+/* End Address Section Styling */
+
+/* Media Query Section */
+@media only screen and (max-width: 800px) {
+  body {
+    width: 100%;
+    margin: auto;
   }
-  
-  .introduction-section .caption {
-    /* normal css */
-    font-weight: 400px;
-    padding-top: 50px;
-    text-align: center;
-  
-    /* flex codes */
-    flex: 1;
-  }
-  
-  .introduction-section .caption h1 {
-    font-size: 70px;
-    text-align: center;
-    padding-top: 10px;
-  }
-  
   .introduction-section .caption-image {
-    /* normal css */
-    text-align: center;
-    width: 30%;
-    padding-bottom: 40px;
-  
-    /* flex codes */
-    flex: 1;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .introduction-section .caption-image img {
-    padding-top: 30px;
-  }
-  
-  .introduction-section .caption button {
-    border: 1px solid black;
-    width: 30.3%;
-    padding: 10px 30px;
-    background: #fff;
-    margin-bottom: 50px;
-  }
-  /* End Introduction Section Styling */
-  
-  /* Top Section Styling */
-  .top-section {
-    /* normal css */
-    margin-top: 10px;
-    margin-right: 10%;
-    padding-top: 30px;
-    width: 100%;
-  
-    /* flex codes */
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-  }
-  
-  .top-section .features-block,
-  .about-block {
-    /* normal css */
-    width: 49.5%;
-    padding-bottom: 30px;
-    padding-right: 20px;
-  
-    /* flex codes */
-    flex: 1;
-    margin: 0 auto;
-    align-self: flex-end;
-  }
-  
-  /* End Top Section Styling */
-  
-  /* Image Section Styling */
-  .image-section .middle-img {
-    width: 100%;
-  }
-  /* End image Section Styling */
-  
-  /* Bottom Section Styling */
-  .bottom-section {
-    display: flex;
-    flex-direction: row;
-  }
-  
-  .bottom-section .services-block,
-  .product-block,
-  .vision-block {
-    flex: 1;
-    width: 33%;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-right: 30px;
-  }
-  /* End Bottom Section Styling */
-  
-  /* Address Section Styling */
-  .address-section {
-    padding-top: 30px;
-    padding-bottom: 50px;
-    border-top: 1px solid black;
-  }
-  
-  .address-section p {
-    padding-top: 10px;
-  }
-  /* End Address Section Styling */
-  
-  /* Media Query Section */
-  @media only screen and (max-width: 800px) {
-    body {
-        width: 100%;
-        margin: auto;
-      }
+    display: none;
   }
 
-  @media only screen and (max-width: 500px) {
-
+  .introduction-section {
+    margin-top: 40px;
   }
-  /* End Media Query Section */
+}
+
+@media only screen and (max-width: 500px) {
+}
+/* End Media Query Section */
