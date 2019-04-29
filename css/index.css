@@ -173,8 +173,13 @@
   }
 
   .top-section {
+      /* flex codes */
     flex-direction: column;
   }
-  
+  .top-section .features-block,
+  .about-block {
+      /* normal css */
+      width: 100%;
+  }
 }
 /* End Media Query Section */
