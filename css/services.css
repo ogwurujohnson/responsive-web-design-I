@@ -104,7 +104,29 @@
   }
 
   .article-image {
-      display: none;
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  body {
+    width: 100%;
+    margin: auto;
+  }
+  .services {
+    padding-top: 300px;
+  }
+
+  .showcase-section {
+    flex-direction: column;
+  }
+  .showcase-section > .digitaldesign-showcase,
+  .ux-showcase,
+  .marketing-showcase,
+  .webdev-showcase,
+  .ios-showcase,
+  .android-showcase {
+    width: 100%;
   }
 }
 /* End Media Query Section */
