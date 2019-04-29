@@ -93,7 +93,10 @@
 .bottom-section .services-block,
 .product-block,
 .vision-block {
+  /* flex codes */
   flex: 1;
+
+  /* normal css */
   width: 33%;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -131,8 +134,11 @@
 
   /* Responsive Top Section */
   .top-section {
+    /* normal css */
     margin-top: 20px;
     width: 100%;
+
+    /* flex-codes */
     justify-content: center;
   }
 
@@ -173,6 +179,9 @@
   .introduction-section .caption button {
     width: 55%;
   }
+  .introduction-section .caption h1 {
+    font-size: 3.5rem;
+  }
 
   /* Responsive top-section */
   .top-section {
@@ -198,7 +207,10 @@
 
   /* Responsive address section */
   .address-section {
-      padding-left: 10px;
+    padding-left: 10px;
+  }
+  .address-section p {
+    font-size: 0.7rem;
   }
 }
 /* End Media Query Section */
