@@ -195,5 +195,10 @@
   .vision-block {
     width: 100%;
   }
+
+  /* Responsive address section */
+  .address-section {
+      padding-left: 10px;
+  }
 }
 /* End Media Query Section */
