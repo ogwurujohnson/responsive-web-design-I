@@ -1,0 +1,110 @@
+/* Services Page Style Block */
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+/* Service Section Style */
+.services {
+  width: 100%;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.services > .services-header-img {
+  width: 100%;
+}
+
+.services > .services-writeup {
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: justify;
+  flex-grow: 1;
+}
+.services > .services-writeup h1 {
+  font-size: 20px;
+  font-weight: 10px;
+}
+/* End Service Section Style */
+
+/* Showcase Section */
+.showcase-section {
+  border-top: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border-bottom: 1px solid black;
+}
+
+.showcase-section > .digitaldesign-showcase,
+.ux-showcase,
+.marketing-showcase,
+.webdev-showcase,
+.ios-showcase,
+.android-showcase {
+  margin-top: 45px;
+  border: 0.5px solid grey;
+  width: 48%;
+  padding: 20px;
+  background-color: #e2e2e0;
+}
+
+.showcase-section > .android-showcase,
+.ios-showcase {
+  margin-bottom: 45px;
+}
+
+.learn-more {
+  margin-top: 30px;
+  padding: 10px;
+  width: 20%;
+  border-radius: 5%;
+  margin-bottom: 2px;
+  border: 1px solid black;
+}
+/* End Showcase Section */
+
+/* Fact Section Styling */
+.fact-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 30px;
+  text-align: justify;
+}
+
+.fact-section > .articles-notes {
+  padding-right: 50px;
+  align-self: flex-start;
+}
+
+.fact-section > .articles-notes ul {
+  list-style-type: square;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+/* End fact sectkion styling */
+
+/* Media Query Section */
+@media only screen and (max-width: 800px) {
+  body {
+    width: 100%;
+    margin: auto;
+  }
+  .services {
+    padding-top: 70px;
+  }
+
+  .learn-more {
+    width: 50%;
+  }
+
+  .article-image {
+      display: none;
+  }
+}
+/* End Media Query Section */
