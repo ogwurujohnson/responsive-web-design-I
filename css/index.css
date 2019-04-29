@@ -120,7 +120,6 @@
   body {
     width: 100%;
     margin: auto;
-    background-color: red;
   }
   /* Responsive Introduction Section */
   .introduction-section .caption-image {
@@ -160,5 +159,20 @@
 }
 
 @media only screen and (max-width: 500px) {
+    body {
+        width: 100%;
+        margin: auto;
+    }
+    .introduction-section {
+        margin-top: 250px;
+    }
+    .introduction-section .caption-image {
+        display: none;
+    }
+    .introduction-section .caption button {
+        width: 55%;
+    }
+
+    
 }
 /* End Media Query Section */
