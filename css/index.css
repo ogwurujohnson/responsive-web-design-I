@@ -142,6 +142,17 @@
     padding-left: 10px;
     text-align: justify;
   }
+
+  .bottom-section .services-block,
+    .product-block,
+    .vision-block {
+      padding-left: 10px;
+      text-align: left;
+    }
+  
+    .address-section {
+      padding-left: 10px;
+    }
 }
 
 @media only screen and (max-width: 500px) {
