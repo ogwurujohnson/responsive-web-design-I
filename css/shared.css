@@ -210,3 +210,12 @@ footer p {
 }
 /* End Footer Section Styling */
 
+/* Media Query Section */
+@media only screen and (max-width: 500px) {
+
+}
+
+@media only screen and (max-width: 800px) {
+
+}
+/* End Media Query Section */
