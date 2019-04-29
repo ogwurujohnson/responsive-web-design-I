@@ -118,13 +118,29 @@
   body {
     width: 100%;
     margin: auto;
+    background-color: red;
   }
+  /* Responsive Introduction Section */
   .introduction-section .caption-image {
     display: none;
   }
 
   .introduction-section {
     margin-top: 40px;
+  }
+
+  /* Responsive Top Section */
+  .top-section {
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .top-section .features-block,
+  .about-block {
+    /* normal css */
+    padding-left: 10px;
+    text-align: justify;
   }
 }
 
