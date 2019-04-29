@@ -211,11 +211,33 @@ footer p {
 /* End Footer Section Styling */
 
 /* Media Query Section */
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 800px) {
+  header {
+    /* normal css */
+    margin-top: 80px;
 
+    /* flex codes */
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+
+  header .logo {
+    /* flex codes */
+    padding-top: 30px;
+    flex: 3;
+
+    /* normal css */
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+
+  header nav {
+    /* normal css */
+    /* border: 1px solid black; */
+    padding-bottom: 30px;
+  }
 }
 
-@media only screen and (max-width: 800px) {
-
+@media only screen and (max-width: 500px) {
 }
 /* End Media Query Section */
