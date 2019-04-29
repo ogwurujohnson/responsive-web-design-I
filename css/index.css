@@ -115,7 +115,6 @@
 
 /* Media Query Section */
 
-
 @media only screen and (max-width: 800px) {
   body {
     width: 100%;
@@ -159,20 +158,23 @@
 }
 
 @media only screen and (max-width: 500px) {
-    body {
-        width: 100%;
-        margin: auto;
-    }
-    .introduction-section {
-        margin-top: 250px;
-    }
-    .introduction-section .caption-image {
-        display: none;
-    }
-    .introduction-section .caption button {
-        width: 55%;
-    }
+  body {
+    width: 100%;
+    margin: auto;
+  }
+  .introduction-section {
+    margin-top: 250px;
+  }
+  .introduction-section .caption-image {
+    display: none;
+  }
+  .introduction-section .caption button {
+    width: 55%;
+  }
 
-    
+  .top-section {
+    flex-direction: column;
+  }
+  
 }
 /* End Media Query Section */
