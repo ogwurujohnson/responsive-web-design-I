@@ -114,11 +114,14 @@
   /* End Address Section Styling */
   
   /* Media Query Section */
-  @media only screen and (max-width: 500px) {
-
+  @media only screen and (max-width: 800px) {
+    body {
+        width: 100%;
+        margin: auto;
+      }
   }
 
-  @media only screen and (max-width: 800px) {
+  @media only screen and (max-width: 500px) {
 
   }
   /* End Media Query Section */
