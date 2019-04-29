@@ -114,6 +114,8 @@
 /* End Address Section Styling */
 
 /* Media Query Section */
+
+
 @media only screen and (max-width: 800px) {
   body {
     width: 100%;
@@ -143,16 +145,18 @@
     text-align: justify;
   }
 
+  /* Responsive Bottom Section */
   .bottom-section .services-block,
-    .product-block,
-    .vision-block {
-      padding-left: 10px;
-      text-align: left;
-    }
-  
-    .address-section {
-      padding-left: 10px;
-    }
+  .product-block,
+  .vision-block {
+    padding-left: 10px;
+    text-align: left;
+  }
+
+  /* Responsive Address Section */
+  .address-section {
+    padding-left: 10px;
+  }
 }
 
 @media only screen and (max-width: 500px) {
